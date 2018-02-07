@@ -1,0 +1,6 @@
+platform :ios, '7.0'
+source 'https://git.coding.net/weapp2013/WPSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+target 'WPSandBoxToolsDemo' do
+	pod 'WPPrintLogFile'
+end

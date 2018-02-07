@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26CB8FA016573D8EBEE50296 /* libPods-WPSandBoxToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB97FD167DDD744BFD6A2ED /* libPods-WPSandBoxToolsDemo.a */; };
+		FE5E70B11F9D90C7005A804F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E70B01F9D90C7005A804F /* main.m */; };
+		FE5E70B41F9D90C7005A804F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E70B31F9D90C7005A804F /* AppDelegate.m */; };
+		FE5E70B71F9D90C7005A804F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E70B61F9D90C7005A804F /* ViewController.m */; };
+		FE5E70BA1F9D90C7005A804F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5E70B81F9D90C7005A804F /* Main.storyboard */; };
+		FE5E70BC1F9D90C7005A804F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5E70BB1F9D90C7005A804F /* Assets.xcassets */; };
+		FE5E70BF1F9D90C7005A804F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5E70BD1F9D90C7005A804F /* LaunchScreen.storyboard */; };
+		FE69D40D1F9D94BD00CE1616 /* back_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE69D3FA1F9D94BD00CE1616 /* back_icon@2x.png */; };
+		FE69D40E1F9D94BD00CE1616 /* GenericFolderIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FE69D3FB1F9D94BD00CE1616 /* GenericFolderIcon.png */; };
+		FE69D40F1F9D94BD00CE1616 /* lj_Pictures.png in Resources */ = {isa = PBXBuildFile; fileRef = FE69D3FC1F9D94BD00CE1616 /* lj_Pictures.png */; };
+		FE69D4101F9D94BD00CE1616 /* lj_unknow_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FE69D3FD1F9D94BD00CE1616 /* lj_unknow_icon.png */; };
+		FE69D4111F9D94BD00CE1616 /* WPDirToolNavigatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE69D3FF1F9D94BD00CE1616 /* WPDirToolNavigatorController.m */; };
+		FE69D4121F9D94BD00CE1616 /* WPFileInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE69D4011F9D94BD00CE1616 /* WPFileInfo.m */; };
+		FE69D4131F9D94BD00CE1616 /* WPFileInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE69D4031F9D94BD00CE1616 /* WPFileInfoController.m */; };
+		FE69D4141F9D94BD00CE1616 /* WPHomeDirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE69D4051F9D94BD00CE1616 /* WPHomeDirViewController.m */; };
+		FE69D4151F9D94BD00CE1616 /* WPSandBoxAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE69D4071F9D94BD00CE1616 /* WPSandBoxAlertView.m */; };
+		FE69D4161F9D94BD00CE1616 /* WPSandBoxPreviewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FE69D4091F9D94BD00CE1616 /* WPSandBoxPreviewTool.m */; };
+		FE69D4171F9D94BD00CE1616 /* WPSandBoxSuspensionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE69D40B1F9D94BD00CE1616 /* WPSandBoxSuspensionButton.m */; };
+		FE69D41A1F9D950800CE1616 /* WPSandBoxPreviewTool.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE69D4191F9D950800CE1616 /* WPSandBoxPreviewTool.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CB97FD167DDD744BFD6A2ED /* libPods-WPSandBoxToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WPSandBoxToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60977520C1AA4D33E642EC49 /* Pods-WPSandBoxToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPSandBoxToolsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WPSandBoxToolsDemo/Pods-WPSandBoxToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7F3386DA818402FD6CD19244 /* Pods-WPSandBoxToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPSandBoxToolsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WPSandBoxToolsDemo/Pods-WPSandBoxToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FE5E70AC1F9D90C7005A804F /* WPSandBoxToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPSandBoxToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5E70B01F9D90C7005A804F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE5E70B21F9D90C7005A804F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE5E70B31F9D90C7005A804F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE5E70B51F9D90C7005A804F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE5E70B61F9D90C7005A804F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE5E70B91F9D90C7005A804F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE5E70BB1F9D90C7005A804F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE5E70BE1F9D90C7005A804F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE5E70C01F9D90C7005A804F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE69D3FA1F9D94BD00CE1616 /* back_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_icon@2x.png"; sourceTree = "<group>"; };
+		FE69D3FB1F9D94BD00CE1616 /* GenericFolderIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GenericFolderIcon.png; sourceTree = "<group>"; };
+		FE69D3FC1F9D94BD00CE1616 /* lj_Pictures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lj_Pictures.png; sourceTree = "<group>"; };
+		FE69D3FD1F9D94BD00CE1616 /* lj_unknow_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lj_unknow_icon.png; sourceTree = "<group>"; };
+		FE69D3FE1F9D94BD00CE1616 /* WPDirToolNavigatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPDirToolNavigatorController.h; sourceTree = "<group>"; };
+		FE69D3FF1F9D94BD00CE1616 /* WPDirToolNavigatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPDirToolNavigatorController.m; sourceTree = "<group>"; };
+		FE69D4001F9D94BD00CE1616 /* WPFileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFileInfo.h; sourceTree = "<group>"; };
+		FE69D4011F9D94BD00CE1616 /* WPFileInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFileInfo.m; sourceTree = "<group>"; };
+		FE69D4021F9D94BD00CE1616 /* WPFileInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFileInfoController.h; sourceTree = "<group>"; };
+		FE69D4031F9D94BD00CE1616 /* WPFileInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFileInfoController.m; sourceTree = "<group>"; };
+		FE69D4041F9D94BD00CE1616 /* WPHomeDirViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPHomeDirViewController.h; sourceTree = "<group>"; };
+		FE69D4051F9D94BD00CE1616 /* WPHomeDirViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPHomeDirViewController.m; sourceTree = "<group>"; };
+		FE69D4061F9D94BD00CE1616 /* WPSandBoxAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPSandBoxAlertView.h; sourceTree = "<group>"; };
+		FE69D4071F9D94BD00CE1616 /* WPSandBoxAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPSandBoxAlertView.m; sourceTree = "<group>"; };
+		FE69D4081F9D94BD00CE1616 /* WPSandBoxPreviewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPSandBoxPreviewTool.h; sourceTree = "<group>"; };
+		FE69D4091F9D94BD00CE1616 /* WPSandBoxPreviewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPSandBoxPreviewTool.m; sourceTree = "<group>"; };
+		FE69D40A1F9D94BD00CE1616 /* WPSandBoxSuspensionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPSandBoxSuspensionButton.h; sourceTree = "<group>"; };
+		FE69D40B1F9D94BD00CE1616 /* WPSandBoxSuspensionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPSandBoxSuspensionButton.m; sourceTree = "<group>"; };
+		FE69D4191F9D950800CE1616 /* WPSandBoxPreviewTool.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WPSandBoxPreviewTool.podspec; path = ../../WPSandBoxPreviewTool.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE5E70A91F9D90C7005A804F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB8FA016573D8EBEE50296 /* libPods-WPSandBoxToolsDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C41C7358DDE2123CF237C6EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CB97FD167DDD744BFD6A2ED /* libPods-WPSandBoxToolsDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEB0F486E82A7C4D1E8E1FDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F3386DA818402FD6CD19244 /* Pods-WPSandBoxToolsDemo.debug.xcconfig */,
+				60977520C1AA4D33E642EC49 /* Pods-WPSandBoxToolsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE5E70A31F9D90C6005A804F = {
+			isa = PBXGroup;
+			children = (
+				FE5E70AE1F9D90C7005A804F /* WPSandBoxToolsDemo */,
+				FE5E70AD1F9D90C7005A804F /* Products */,
+				CEB0F486E82A7C4D1E8E1FDB /* Pods */,
+				C41C7358DDE2123CF237C6EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE5E70AD1F9D90C7005A804F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E70AC1F9D90C7005A804F /* WPSandBoxToolsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE5E70AE1F9D90C7005A804F /* WPSandBoxToolsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FE69D4191F9D950800CE1616 /* WPSandBoxPreviewTool.podspec */,
+				FE69D3F81F9D94BD00CE1616 /* WPSandBoxPreviewTool */,
+				FE5E70B21F9D90C7005A804F /* AppDelegate.h */,
+				FE5E70B31F9D90C7005A804F /* AppDelegate.m */,
+				FE5E70B51F9D90C7005A804F /* ViewController.h */,
+				FE5E70B61F9D90C7005A804F /* ViewController.m */,
+				FE5E70B81F9D90C7005A804F /* Main.storyboard */,
+				FE5E70BB1F9D90C7005A804F /* Assets.xcassets */,
+				FE5E70BD1F9D90C7005A804F /* LaunchScreen.storyboard */,
+				FE5E70C01F9D90C7005A804F /* Info.plist */,
+				FE5E70AF1F9D90C7005A804F /* Supporting Files */,
+			);
+			path = WPSandBoxToolsDemo;
+			sourceTree = "<group>";
+		};
+		FE5E70AF1F9D90C7005A804F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E70B01F9D90C7005A804F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE69D3F81F9D94BD00CE1616 /* WPSandBoxPreviewTool */ = {
+			isa = PBXGroup;
+			children = (
+				FE69D3F91F9D94BD00CE1616 /* iconSource */,
+				FE69D3FE1F9D94BD00CE1616 /* WPDirToolNavigatorController.h */,
+				FE69D3FF1F9D94BD00CE1616 /* WPDirToolNavigatorController.m */,
+				FE69D4001F9D94BD00CE1616 /* WPFileInfo.h */,
+				FE69D4011F9D94BD00CE1616 /* WPFileInfo.m */,
+				FE69D4021F9D94BD00CE1616 /* WPFileInfoController.h */,
+				FE69D4031F9D94BD00CE1616 /* WPFileInfoController.m */,
+				FE69D4041F9D94BD00CE1616 /* WPHomeDirViewController.h */,
+				FE69D4051F9D94BD00CE1616 /* WPHomeDirViewController.m */,
+				FE69D4061F9D94BD00CE1616 /* WPSandBoxAlertView.h */,
+				FE69D4071F9D94BD00CE1616 /* WPSandBoxAlertView.m */,
+				FE69D4081F9D94BD00CE1616 /* WPSandBoxPreviewTool.h */,
+				FE69D4091F9D94BD00CE1616 /* WPSandBoxPreviewTool.m */,
+				FE69D40A1F9D94BD00CE1616 /* WPSandBoxSuspensionButton.h */,
+				FE69D40B1F9D94BD00CE1616 /* WPSandBoxSuspensionButton.m */,
+			);
+			name = WPSandBoxPreviewTool;
+			path = ../../WPSandBoxPreviewTool;
+			sourceTree = "<group>";
+		};
+		FE69D3F91F9D94BD00CE1616 /* iconSource */ = {
+			isa = PBXGroup;
+			children = (
+				FE69D3FA1F9D94BD00CE1616 /* back_icon@2x.png */,
+				FE69D3FB1F9D94BD00CE1616 /* GenericFolderIcon.png */,
+				FE69D3FC1F9D94BD00CE1616 /* lj_Pictures.png */,
+				FE69D3FD1F9D94BD00CE1616 /* lj_unknow_icon.png */,
+			);
+			path = iconSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE5E70AB1F9D90C7005A804F /* WPSandBoxToolsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5E70C31F9D90C7005A804F /* Build configuration list for PBXNativeTarget "WPSandBoxToolsDemo" */;
+			buildPhases = (
+				80501144126615E31E665CDC /* [CP] Check Pods Manifest.lock */,
+				FE5E70A81F9D90C7005A804F /* Sources */,
+				FE5E70A91F9D90C7005A804F /* Frameworks */,
+				FE5E70AA1F9D90C7005A804F /* Resources */,
+				897A9FC0B7AD6B811D8520CA /* [CP] Embed Pods Frameworks */,
+				4883467B1080127D8687B3B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPSandBoxToolsDemo;
+			productName = WPSandBoxToolsDemo;
+			productReference = FE5E70AC1F9D90C7005A804F /* WPSandBoxToolsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE5E70A41F9D90C6005A804F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = liwenhaopro;
+				TargetAttributes = {
+					FE5E70AB1F9D90C7005A804F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8VGP475R33;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE5E70A71F9D90C7005A804F /* Build configuration list for PBXProject "WPSandBoxToolsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE5E70A31F9D90C6005A804F;
+			productRefGroup = FE5E70AD1F9D90C7005A804F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE5E70AB1F9D90C7005A804F /* WPSandBoxToolsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE5E70AA1F9D90C7005A804F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5E70BF1F9D90C7005A804F /* LaunchScreen.storyboard in Resources */,
+				FE5E70BC1F9D90C7005A804F /* Assets.xcassets in Resources */,
+				FE69D4101F9D94BD00CE1616 /* lj_unknow_icon.png in Resources */,
+				FE69D40F1F9D94BD00CE1616 /* lj_Pictures.png in Resources */,
+				FE69D40D1F9D94BD00CE1616 /* back_icon@2x.png in Resources */,
+				FE5E70BA1F9D90C7005A804F /* Main.storyboard in Resources */,
+				FE69D41A1F9D950800CE1616 /* WPSandBoxPreviewTool.podspec in Resources */,
+				FE69D40E1F9D94BD00CE1616 /* GenericFolderIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4883467B1080127D8687B3B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WPSandBoxToolsDemo/Pods-WPSandBoxToolsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80501144126615E31E665CDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WPSandBoxToolsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		897A9FC0B7AD6B811D8520CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WPSandBoxToolsDemo/Pods-WPSandBoxToolsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE5E70A81F9D90C7005A804F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE69D4151F9D94BD00CE1616 /* WPSandBoxAlertView.m in Sources */,
+				FE69D4131F9D94BD00CE1616 /* WPFileInfoController.m in Sources */,
+				FE69D4111F9D94BD00CE1616 /* WPDirToolNavigatorController.m in Sources */,
+				FE69D4171F9D94BD00CE1616 /* WPSandBoxSuspensionButton.m in Sources */,
+				FE69D4161F9D94BD00CE1616 /* WPSandBoxPreviewTool.m in Sources */,
+				FE69D4141F9D94BD00CE1616 /* WPHomeDirViewController.m in Sources */,
+				FE5E70B71F9D90C7005A804F /* ViewController.m in Sources */,
+				FE5E70B41F9D90C7005A804F /* AppDelegate.m in Sources */,
+				FE5E70B11F9D90C7005A804F /* main.m in Sources */,
+				FE69D4121F9D94BD00CE1616 /* WPFileInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE5E70B81F9D90C7005A804F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5E70B91F9D90C7005A804F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE5E70BD1F9D90C7005A804F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5E70BE1F9D90C7005A804F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE5E70C11F9D90C7005A804F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE5E70C21F9D90C7005A804F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE5E70C41F9D90C7005A804F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3386DA818402FD6CD19244 /* Pods-WPSandBoxToolsDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8VGP475R33;
+				INFOPLIST_FILE = WPSandBoxToolsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webViewindefiner..WPSandBoxToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE5E70C51F9D90C7005A804F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60977520C1AA4D33E642EC49 /* Pods-WPSandBoxToolsDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8VGP475R33;
+				INFOPLIST_FILE = WPSandBoxToolsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webViewindefiner..WPSandBoxToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE5E70A71F9D90C7005A804F /* Build configuration list for PBXProject "WPSandBoxToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5E70C11F9D90C7005A804F /* Debug */,
+				FE5E70C21F9D90C7005A804F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5E70C31F9D90C7005A804F /* Build configuration list for PBXNativeTarget "WPSandBoxToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5E70C41F9D90C7005A804F /* Debug */,
+				FE5E70C51F9D90C7005A804F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE5E70A41F9D90C6005A804F /* Project object */;
+}
