@@ -40,10 +40,7 @@ static WPSandBoxPreviewTool *_singleton;
 #pragma mark 打开或关闭应用磁盘目录面板
 - (void)autoOpenCloseApplicationDiskDirectoryPanel
 {
-    UIViewController *root = kWPApplicationRootVC;
-    if (root.presentedViewController) {
-        root = root.presentedViewController;
-    }
+    UIViewController *root = [self topPresentedViewController];
     BOOL isEqual = (root == _navVC);
     if (isEqual) {
         [_navVC dismissViewControllerAnimated:YES completion:nil];
@@ -54,10 +51,7 @@ static WPSandBoxPreviewTool *_singleton;
 
 - (void)presentNav{
     
-    UIViewController *rootVC = kWPApplicationRootVC;
-    if (rootVC.presentedViewController) {
-        rootVC = kWPApplicationRootVC.presentedViewController;
-    }
+    UIViewController *rootVC = [self topPresentedViewController];
     
     if (_navVC) {
         [rootVC presentViewController:_navVC animated:YES completion:nil];
