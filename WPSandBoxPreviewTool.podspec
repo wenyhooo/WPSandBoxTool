@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "WPSandBoxPreviewTool"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "WPSandBoxPreviewTool"
   s.homepage     = "https://github.com/wenyhooo/WPSandBoxTool.git"
   s.license      = 'MIT'
